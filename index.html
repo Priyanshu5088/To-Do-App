@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="body">
+  <div class="container">
+    <div class="topDiv"><h1>📝 To-Do App</h1></div>
+    <p id="taskStats">Total: 0 | Completed: 0 | Pending: 0</p>
+    <form id="todoForm">
+      <input type="text" id="taskInput" placeholder="Enter a task" />
+      <button type="submit" id="addTask">Add Task</button>
+      <div id="warning" style="color: rgb(186, 4, 4); margin-top: 10px;"></div>
+    </form>
+    <ul id="taskList"></ul>
+    <div id="showBtns">
+        <button id="showAllBtn">Total </button>
+        <button id="showCompletedBtn">Completed </button>
+        <button id="showPendingBtn">Pending</button>
+    </div>
+   <p></p>
+
+    <button id="clearTask">🚫 Clear All</button>
+    <button id="toggleBtn">🌙 Toggle Theme</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
