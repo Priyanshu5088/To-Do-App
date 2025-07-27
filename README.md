@@ -23,12 +23,6 @@ A simple yet efficient To-Do web application that helps you track your daily tas
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots here (optional)
-
----
-
 ## 📁 Folder Structure
 
 ```bash
